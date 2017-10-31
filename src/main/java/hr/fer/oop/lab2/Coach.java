@@ -10,6 +10,7 @@ public class Coach extends Person implements Manager {
     private int coachingSkill = Constants.DEFAULT_COACHING_SKILL;
     private Formation favouriteFormation = Constants.DEFAULT_FORMATION;
     private ManageableTeam managingTeam;
+    private ManageableTeam managingTeam2;
 
 
     /**

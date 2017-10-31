@@ -8,8 +8,8 @@ import hr.fer.oop.lab2.welcomepack.SimpleFootballPlayerCollection;
  */
 public class SimpleFootballPlayerCollectionImpl implements SimpleFootballPlayerCollection {
 
-    private int maxPlayers;
-    private FootballPlayer[] footballPlayerList; //= new FootballPlayer[maxPlayers];
+    protected int maxPlayers;
+    protected FootballPlayer[] footballPlayerList; //= new FootballPlayer[maxPlayers];
 
     /**
      * Constructor for the array based football player collection.

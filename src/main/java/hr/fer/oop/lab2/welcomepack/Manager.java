@@ -29,5 +29,4 @@ public interface Manager {
 	 *            team
 	 */
 	public void setManagingTeam(ManageableTeam team);
-
 }
